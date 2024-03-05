@@ -1,19 +1,14 @@
-let javascriptIsFun = true;
-console.log(javascriptIsFun);
+let age = 30;
+age = 31;
 
-console.log(typeof true);
-console.log(typeof javascriptIsFun);
-console.log(typeof 23);
-console.log(typeof "Jonas");
+const birthYear = 1991;
+// birthYear = 1990;
+// const job
+// let is block scope
+// var is function scope
 
-javascriptIsFun = "Yes!";
-console.log(typeof javascriptIsFun);
+var job = "programmer";
+job = "teacher";
 
-let year;
-console.log(year);
-console.log(typeof year);
-
-year = 1991;
-console.log(typeof year);
-
-console.log(typeof null);
+lastName = "Schmedtmann";
+console.log(lastName);

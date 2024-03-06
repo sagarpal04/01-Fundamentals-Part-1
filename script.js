@@ -1,18 +1,18 @@
-// type conversion
-const inputYear = "1991";
-console.log(Number(inputYear), inputYear);
-console.log(Number(inputYear) + 18);
+const age = "18";
+if (age === 18) console.log("You just became an adult :D (strict)");
+if (age == 18) console.log("You just became an adult :D (loose)");
+const favourite = Number(prompt("What's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
 
-console.log(Number("Jonas"));
-console.log(typeof NaN);
+if (favourite === 23) {
+  console.log("Cool ! 23 is amazing number!");
+} else if (favourite === 7) {
+  console.log("7 is also a cool number");
+} else if (favourite === 9) {
+  console.log("Number is 9");
+} else {
+  console.log("Number is not 23 or 7 or 9");
+}
 
-console.log(String(23), 23);
-
-// type coercion
-console.log(`I'am ` + 23 + " years old ");
-console.log("23" - "10" - 3);
-console.log("23" / "2");
-
-let n = "1" + 1;
-n = n - 1;
-console.log(n);
+if (favourite !== 23) console.log("Why not 23 ?");

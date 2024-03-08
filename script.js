@@ -1,16 +1,5 @@
-const age = 23;
-age >= 18
-  ? console.log("I like to drink wine 🍷")
-  : console.log("I like to drink water 💧");
-
-const drink = age >= 18 ? "wine 🍷" : "water 💧";
-
-let drink2;
-if (age >= 18) {
-  drink2 = "wine 🍷";
-} else {
-  drink2 = "water 💧";
-}
-
-console.log(drink2);
-console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
+const bill = 275;
+const tip = 300 >= bill && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `The bill was ${275}, the tip was ${tip}, and the total value ${bill + tip}.`
+);
